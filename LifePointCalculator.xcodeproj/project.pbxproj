@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1C902B1C16081A00F356E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C902A1C16081A00F356E3 /* AppDelegate.swift */; };
+		3F1C902D1C16081A00F356E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C902C1C16081A00F356E3 /* ViewController.swift */; };
+		3F1C90301C16081A00F356E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C902E1C16081A00F356E3 /* Main.storyboard */; };
+		3F1C90321C16081A00F356E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C90311C16081A00F356E3 /* Assets.xcassets */; };
+		3F1C90351C16081A00F356E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C90331C16081A00F356E3 /* LaunchScreen.storyboard */; };
+		3F1C90401C16081A00F356E3 /* LifePointCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C903F1C16081A00F356E3 /* LifePointCalculatorTests.swift */; };
+		3F1C904B1C16081A00F356E3 /* LifePointCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C904A1C16081A00F356E3 /* LifePointCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1C903C1C16081A00F356E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1C901F1C16081A00F356E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1C90261C16081A00F356E3;
+			remoteInfo = LifePointCalculator;
+		};
+		3F1C90471C16081A00F356E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1C901F1C16081A00F356E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1C90261C16081A00F356E3;
+			remoteInfo = LifePointCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1C90271C16081A00F356E3 /* LifePointCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePointCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C902A1C16081A00F356E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1C902C1C16081A00F356E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1C902F1C16081A00F356E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1C90311C16081A00F356E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1C90341C16081A00F356E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1C90361C16081A00F356E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C903B1C16081A00F356E3 /* LifePointCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifePointCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C903F1C16081A00F356E3 /* LifePointCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePointCalculatorTests.swift; sourceTree = "<group>"; };
+		3F1C90411C16081A00F356E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C90461C16081A00F356E3 /* LifePointCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifePointCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C904A1C16081A00F356E3 /* LifePointCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePointCalculatorUITests.swift; sourceTree = "<group>"; };
+		3F1C904C1C16081A00F356E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1C90241C16081A00F356E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C90381C16081A00F356E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C90431C16081A00F356E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1C901E1C16081A00F356E3 = {
+			isa = PBXGroup;
+			children = (
+				3F1C90291C16081A00F356E3 /* LifePointCalculator */,
+				3F1C903E1C16081A00F356E3 /* LifePointCalculatorTests */,
+				3F1C90491C16081A00F356E3 /* LifePointCalculatorUITests */,
+				3F1C90281C16081A00F356E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1C90281C16081A00F356E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C90271C16081A00F356E3 /* LifePointCalculator.app */,
+				3F1C903B1C16081A00F356E3 /* LifePointCalculatorTests.xctest */,
+				3F1C90461C16081A00F356E3 /* LifePointCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1C90291C16081A00F356E3 /* LifePointCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C902A1C16081A00F356E3 /* AppDelegate.swift */,
+				3F1C902C1C16081A00F356E3 /* ViewController.swift */,
+				3F1C902E1C16081A00F356E3 /* Main.storyboard */,
+				3F1C90311C16081A00F356E3 /* Assets.xcassets */,
+				3F1C90331C16081A00F356E3 /* LaunchScreen.storyboard */,
+				3F1C90361C16081A00F356E3 /* Info.plist */,
+			);
+			path = LifePointCalculator;
+			sourceTree = "<group>";
+		};
+		3F1C903E1C16081A00F356E3 /* LifePointCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C903F1C16081A00F356E3 /* LifePointCalculatorTests.swift */,
+				3F1C90411C16081A00F356E3 /* Info.plist */,
+			);
+			path = LifePointCalculatorTests;
+			sourceTree = "<group>";
+		};
+		3F1C90491C16081A00F356E3 /* LifePointCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C904A1C16081A00F356E3 /* LifePointCalculatorUITests.swift */,
+				3F1C904C1C16081A00F356E3 /* Info.plist */,
+			);
+			path = LifePointCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1C90261C16081A00F356E3 /* LifePointCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C904F1C16081A00F356E3 /* Build configuration list for PBXNativeTarget "LifePointCalculator" */;
+			buildPhases = (
+				3F1C90231C16081A00F356E3 /* Sources */,
+				3F1C90241C16081A00F356E3 /* Frameworks */,
+				3F1C90251C16081A00F356E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifePointCalculator;
+			productName = LifePointCalculator;
+			productReference = 3F1C90271C16081A00F356E3 /* LifePointCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1C903A1C16081A00F356E3 /* LifePointCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C90521C16081A00F356E3 /* Build configuration list for PBXNativeTarget "LifePointCalculatorTests" */;
+			buildPhases = (
+				3F1C90371C16081A00F356E3 /* Sources */,
+				3F1C90381C16081A00F356E3 /* Frameworks */,
+				3F1C90391C16081A00F356E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C903D1C16081A00F356E3 /* PBXTargetDependency */,
+			);
+			name = LifePointCalculatorTests;
+			productName = LifePointCalculatorTests;
+			productReference = 3F1C903B1C16081A00F356E3 /* LifePointCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1C90451C16081A00F356E3 /* LifePointCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C90551C16081A00F356E3 /* Build configuration list for PBXNativeTarget "LifePointCalculatorUITests" */;
+			buildPhases = (
+				3F1C90421C16081A00F356E3 /* Sources */,
+				3F1C90431C16081A00F356E3 /* Frameworks */,
+				3F1C90441C16081A00F356E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C90481C16081A00F356E3 /* PBXTargetDependency */,
+			);
+			name = LifePointCalculatorUITests;
+			productName = LifePointCalculatorUITests;
+			productReference = 3F1C90461C16081A00F356E3 /* LifePointCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1C901F1C16081A00F356E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "George O'Brien";
+				TargetAttributes = {
+					3F1C90261C16081A00F356E3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6D3UN8B3PL;
+					};
+					3F1C903A1C16081A00F356E3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6D3UN8B3PL;
+						TestTargetID = 3F1C90261C16081A00F356E3;
+					};
+					3F1C90451C16081A00F356E3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6D3UN8B3PL;
+						TestTargetID = 3F1C90261C16081A00F356E3;
+					};
+				};
+			};
+			buildConfigurationList = 3F1C90221C16081A00F356E3 /* Build configuration list for PBXProject "LifePointCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1C901E1C16081A00F356E3;
+			productRefGroup = 3F1C90281C16081A00F356E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1C90261C16081A00F356E3 /* LifePointCalculator */,
+				3F1C903A1C16081A00F356E3 /* LifePointCalculatorTests */,
+				3F1C90451C16081A00F356E3 /* LifePointCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1C90251C16081A00F356E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C90351C16081A00F356E3 /* LaunchScreen.storyboard in Resources */,
+				3F1C90321C16081A00F356E3 /* Assets.xcassets in Resources */,
+				3F1C90301C16081A00F356E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C90391C16081A00F356E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C90441C16081A00F356E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1C90231C16081A00F356E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C902D1C16081A00F356E3 /* ViewController.swift in Sources */,
+				3F1C902B1C16081A00F356E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C90371C16081A00F356E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C90401C16081A00F356E3 /* LifePointCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C90421C16081A00F356E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C904B1C16081A00F356E3 /* LifePointCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1C903D1C16081A00F356E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1C90261C16081A00F356E3 /* LifePointCalculator */;
+			targetProxy = 3F1C903C1C16081A00F356E3 /* PBXContainerItemProxy */;
+		};
+		3F1C90481C16081A00F356E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1C90261C16081A00F356E3 /* LifePointCalculator */;
+			targetProxy = 3F1C90471C16081A00F356E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1C902E1C16081A00F356E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1C902F1C16081A00F356E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1C90331C16081A00F356E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1C90341C16081A00F356E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1C904D1C16081A00F356E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1C904E1C16081A00F356E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1C90501C16081A00F356E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LifePointCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apature-Science-Co..LifePointCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F1C90511C16081A00F356E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LifePointCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apature-Science-Co..LifePointCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F1C90531C16081A00F356E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LifePointCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apature-Science-Co..LifePointCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifePointCalculator.app/LifePointCalculator";
+			};
+			name = Debug;
+		};
+		3F1C90541C16081A00F356E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LifePointCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apature-Science-Co..LifePointCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifePointCalculator.app/LifePointCalculator";
+			};
+			name = Release;
+		};
+		3F1C90561C16081A00F356E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LifePointCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apature-Science-Co..LifePointCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LifePointCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F1C90571C16081A00F356E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LifePointCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apature-Science-Co..LifePointCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LifePointCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1C90221C16081A00F356E3 /* Build configuration list for PBXProject "LifePointCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C904D1C16081A00F356E3 /* Debug */,
+				3F1C904E1C16081A00F356E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C904F1C16081A00F356E3 /* Build configuration list for PBXNativeTarget "LifePointCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C90501C16081A00F356E3 /* Debug */,
+				3F1C90511C16081A00F356E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F1C90521C16081A00F356E3 /* Build configuration list for PBXNativeTarget "LifePointCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C90531C16081A00F356E3 /* Debug */,
+				3F1C90541C16081A00F356E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F1C90551C16081A00F356E3 /* Build configuration list for PBXNativeTarget "LifePointCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C90561C16081A00F356E3 /* Debug */,
+				3F1C90571C16081A00F356E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1C901F1C16081A00F356E3 /* Project object */;
+}
